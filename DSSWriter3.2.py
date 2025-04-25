@@ -10,13 +10,13 @@ DSS_PATH = r'C:\Users\bruno\OneDrive\Área de Trabalho\TCC\PYTHON\DSS'  # Caminh
 # Parâmetros para carga adicional
 rechargerload = 15  # Carga adicional em kW
 EVSpread = 0  # Porcentagem de cargas que sofrerão aumento para veículos elétricos
-GDSpread = 100  # Porcentagem de cargas que receberão geração distribuída
+GDSpread = 0  # Porcentagem de cargas que receberão geração distribuída
 random_seed = 1  # Semente Aleatória para Reprodução
 
 # Distribuição de curvas de carga
-CurvaRecharger1 = 30  # %
-CurvaRecharger2 = 30  # %
-CurvaRecharger3 = 40  # %
+CurvaRecharger1 = 33.3333  # %
+CurvaRecharger2 = 33.3334  # %
+CurvaRecharger3 = 33.3333  # %
 
 # Parâmetro para fator de potência
 default_powerfactor = 0.92
@@ -554,7 +554,7 @@ def write_loads(dss_file):
         gen_name = f"PV_{row['PAC']}_{_}"
         dss_file.write(f"New Generator.{gen_name} Phases={phases} Bus1={row['PAC']}.1.2.3\n")
         dss_file.write(f"~ kV={float(row['TEN_FORN']) / 1000:.3f} Conn={'delta' if phases == 3 else 'wye'}\n")
-        dss_file.write(f"~ kW={float(row['CAR_INST']) / 3.5 } PF={default_powerfactor} Model=1 Daily=CurvaGD\n")
+        dss_file.write(f"~ kW={float(row['CAR_INST']) * (3/4) } PF={default_powerfactor} Model=1 Daily=CurvaGD\n")
 
 # Função para escrever os comandos de monitores
 def write_monitors(dss_file):

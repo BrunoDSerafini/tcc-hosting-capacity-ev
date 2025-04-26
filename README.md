@@ -28,6 +28,20 @@ The simulations are based on:
 📚 Academic Reference
 If you use this code in your research or academic work, please cite the original thesis:
 
-[Bruno Dambroski Serafini]
-Analysis of the Hosting Capacity of the Distribution Network with the Implementation of Electric Vehicle Charging Stations.
-Bachelor's Thesis, [Universidade Federal de Mato Grosso], 2025.
+📚 How to Cite
+If you use this repository or any part of it in your academic work, please reference it as follows:
+
+APA Style:
+Serafini, B. D. (2025). Analysis of the Hosting Capacity of the Distribution Network with the Implementation of Electric Vehicle Charging Stations (Bachelor's thesis). Universidade Federal de Mato Grosso.
+
+BibTeX Entry:
+
+
+```bibtex
+@thesis{serafini2025hostingcapacity,
+  author = {Bruno Dambroski Serafini},
+  title = {Analysis of the Hosting Capacity of the Distribution Network with the Implementation of Electric Vehicle Charging Stations},
+  year = {2025},
+  school = {Universidade Federal de Mato Grosso},
+  type = {Bachelor's Thesis}
+}

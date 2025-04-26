@@ -14,7 +14,7 @@ The simulations are based on:
 
 - Real distribution network data from the [BDGD - Brazilian Distribution Grid Database](https://dadosabertos.aneel.gov.br/dataset/base-de-dados-geografica-da-distribuidora-bdgd)
 - Electrical behavior modeled using [OpenDSS](https://sourceforge.net/projects/electricdss/) through `dss_python` bindings
-- py_dss_interface from Radatz, P. (2025). [py-dss-interface: A Python package that interfaces with OpenDSS powered by EPRI (Version X.X.X) Computer software. GitHub]( https://github.com/PauloRadatz/py_dss_interface)
+- py_dss_interface from Radatz, P. (2025). [py-dss-interface: A Python package that interfaces with OpenDSS powered by EPRI (Version 2.1.0) Computer software. GitHub]( https://github.com/PauloRadatz/py_dss_interface)
 - Custom Python scripts for automation, analysis, and visualization
 
 ## ⚙️ Features

@@ -4,7 +4,7 @@ This repository contains all the Python scripts developed for the undergraduate 
 
 **"Analysis of the Hosting Capacity of the Distribution Network with the Implementation of Electric Vehicle Charging Stations"**
 
-The study explores the integration of electric vehicle (EV) charging stations in medium- and low-voltage distribution networks, using modeling and simulation tools based on BDGD and DSS frameworks.
+The study explores the integration of electric vehicle (EV) charging stations in low-voltage distribution networks, using modeling and simulation tools based on BDGD and DSS frameworks.
 
 ## 🧠 Project Summary
 
